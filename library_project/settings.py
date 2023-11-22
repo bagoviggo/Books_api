@@ -41,11 +41,12 @@ INSTALLED_APPS = [
     
     # 3rd party
     
-    'rest_framework', # new
+    'rest_framework',
     
     # Local
     
-    'books.apps.BooksConfig', # new
+    'books.apps.BooksConfig',
+    'api.apps.ApiConfig', #new
 ]
 
 MIDDLEWARE = [
