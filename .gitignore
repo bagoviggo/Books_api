@@ -1,0 +1,28 @@
+# .gitignore
+
+# Virtual environment
+/.venv
+
+# Pipenv
+/Pipfile
+/Pipfile.lock
+
+# Database
+/db.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Ignore development and runtime files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Ignore environment-specific files
+.env
+
